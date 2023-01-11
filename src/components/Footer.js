@@ -106,11 +106,18 @@ export default function Footer() {
         <a
           href="https://api.whatsapp.com/send?phone=+918160712491"
           target="_blank"
+          rel="noreferrer"
         >
-          <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" />
+          <img
+            src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
+            alt=""
+          />
         </a>
         <a href="tel:+918160712491">
-          <img src="https://img.icons8.com/external-anggara-flat-anggara-putra/32/000000/external-call-ui-basic-anggara-flat-anggara-putra.png" />
+          <img
+            src="https://img.icons8.com/external-anggara-flat-anggara-putra/32/000000/external-call-ui-basic-anggara-flat-anggara-putra.png"
+            alt=""
+          />
         </a>
       </div>
     </>

@@ -214,6 +214,7 @@ export default function Other() {
                       <a
                         href="https://api.whatsapp.com/send?phone=+918160712491"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         +91 81607 12491
                       </a>
