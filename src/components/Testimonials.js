@@ -30,10 +30,12 @@ export default function Testimonials() {
                     </div>
                     <div className="info">
                       <h2>
-                        <a href="#">Grenchen Pearce</a>
+                        <a href="https://karsolutions.in/">Grenchen Pearce</a>
                       </h2>
                       <h3>
-                        <a href="#">Boston Brothers co.</a>
+                        <a href="https://karsolutions.in/">
+                          Boston Brothers co.
+                        </a>
                       </h3>
                     </div>
                   </div>
@@ -55,10 +57,12 @@ export default function Testimonials() {
                     </div>
                     <div className="info">
                       <h2>
-                        <a href="#">Domeni GEsson</a>
+                        <a href="https://karsolutions.in/">Domeni GEsson</a>
                       </h2>
                       <h3>
-                        <a href="#">Awesome Technology co.</a>
+                        <a href="https://karsolutions.in/">
+                          Awesome Technology co.
+                        </a>
                       </h3>
                     </div>
                   </div>
@@ -80,10 +84,10 @@ export default function Testimonials() {
                     </div>
                     <div className="info">
                       <h2>
-                        <a href="#">Dommini Albert</a>
+                        <a href="https://karsolutions.in/">Dommini Albert</a>
                       </h2>
                       <h3>
-                        <a href="#">Nesnal Design co.</a>
+                        <a href="https://karsolutions.in/">Nesnal Design co.</a>
                       </h3>
                     </div>
                   </div>
@@ -105,10 +109,10 @@ export default function Testimonials() {
                     </div>
                     <div className="info">
                       <h2>
-                        <a href="#">Fernanda Anaya</a>
+                        <a href="https://karsolutions.in/">Fernanda Anaya</a>
                       </h2>
                       <h3>
-                        <a href="#">Developer</a>
+                        <a href="https://karsolutions.in/">Developer</a>
                       </h3>
                     </div>
                   </div>
@@ -130,10 +134,10 @@ export default function Testimonials() {
                     </div>
                     <div className="info">
                       <h2>
-                        <a href="#">Jason A.</a>
+                        <a href="https://karsolutions.in/">Jason A.</a>
                       </h2>
                       <h3>
-                        <a href="#">Designer</a>
+                        <a href="https://karsolutions.in/">Designer</a>
                       </h3>
                     </div>
                   </div>

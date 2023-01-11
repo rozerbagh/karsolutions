@@ -32,7 +32,7 @@ export default function Teams() {
                     <div className="overlay-social-icon text-center">
                       <ul className="social-icons">
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-facebook-filled"
                               aria-hidden="true"
@@ -40,7 +40,7 @@ export default function Teams() {
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-twitter-filled"
                               aria-hidden="true"
@@ -48,7 +48,7 @@ export default function Teams() {
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-instagram-filled"
                               aria-hidden="true"
@@ -61,7 +61,7 @@ export default function Teams() {
                 </div>
                 <div className="info-text">
                   <h3>
-                    <a href="#">Rafael Basilla</a>
+                    <a href="https://karsolutions.in/">Rafael Basilla</a>
                   </h3>
                   <p>Front-end Developer, Dropbox</p>
                 </div>
@@ -81,7 +81,7 @@ export default function Teams() {
                     <div className="overlay-social-icon text-center">
                       <ul className="social-icons">
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-facebook-filled"
                               aria-hidden="true"
@@ -89,7 +89,7 @@ export default function Teams() {
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-twitter-filled"
                               aria-hidden="true"
@@ -97,7 +97,7 @@ export default function Teams() {
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-instagram-filled"
                               aria-hidden="true"
@@ -110,7 +110,7 @@ export default function Teams() {
                 </div>
                 <div className="info-text">
                   <h3>
-                    <a href="#">Renee Fleck</a>
+                    <a href="https://karsolutions.in/">Renee Fleck</a>
                   </h3>
                   <p>Product Designer, Tesla</p>
                 </div>
@@ -131,7 +131,7 @@ export default function Teams() {
                     <div className="overlay-social-icon text-center">
                       <ul className="social-icons">
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-facebook-filled"
                               aria-hidden="true"
@@ -139,7 +139,7 @@ export default function Teams() {
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-twitter-filled"
                               aria-hidden="true"
@@ -147,7 +147,7 @@ export default function Teams() {
                           </a>
                         </li>
                         <li>
-                          <a href="#">
+                          <a href="https://karsolutions.in/">
                             <i
                               className="lni-instagram-filled"
                               aria-hidden="true"
@@ -160,7 +160,7 @@ export default function Teams() {
                 </div>
                 <div className="info-text">
                   <h3>
-                    <a href="#">Paul Kowalsy</a>
+                    <a href="https://karsolutions.in/">Paul Kowalsy</a>
                   </h3>
                   <p>Lead Designer, TNW</p>
                 </div>

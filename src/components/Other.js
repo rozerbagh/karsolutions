@@ -201,10 +201,9 @@ export default function Other() {
                       <i className="lni-envelope"></i>
                     </div>
                     <p>
-                      <a href="#">email@gmail.com</a>
-                    </p>
-                    <p>
-                      <a href="#">tomsaulnier@gmail.com</a>
+                      <a href="mailto:caabhijeetchouby@gmail.com">
+                        caabhijeetchouby@gmail.com
+                      </a>
                     </p>
                   </div>
                   <div className="single-contact">
