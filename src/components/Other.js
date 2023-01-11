@@ -4,49 +4,49 @@ export default function Other() {
   return (
     <>
       {/* <!-- Owl Slider Section Start --> */}
-      <section class="sloder-img section-padding">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-center slider">
+      <section className="sloder-img section-padding">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div className="slider-center slider">
                 <div>
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/slide/img1.jpg"
                     alt=""
                   />
                 </div>
                 <div>
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/slide/img2.jpg"
                     alt=""
                   />
                 </div>
                 <div>
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/slide/img3.jpg"
                     alt=""
                   />
                 </div>
                 <div>
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/slide/img4.jpg"
                     alt=""
                   />
                 </div>
                 <div>
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/slide/img5.jpg"
                     alt=""
                   />
                 </div>
                 <div>
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/slide/img6.jpg"
                     alt=""
                   />
@@ -59,28 +59,28 @@ export default function Other() {
       {/* <!-- Owl Slider Section End --> */}
 
       {/* <!-- Subscribe Section Start --> */}
-      <section id="Subscribes" class="subscribes section-padding">
-        <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="col-md-10 col-lg-5">
-              <h4 class="wow fadeInUp" data-wow-delay="0.3s">
+      <section id="Subscribes" className="subscribes section-padding">
+        <div className="container">
+          <div className="row justify-content-md-center">
+            <div className="col-md-10 col-lg-5">
+              <h4 className="wow fadeInUp" data-wow-delay="0.3s">
                 Start For Free
               </h4>
-              <p class="wow fadeInUp" data-wow-delay="0.6s">
+              <p className="wow fadeInUp" data-wow-delay="0.6s">
                 Existing customized ideas through client-based deliverables.
                 <br />
                 Compellingly unleash fully tested outsourcing
               </p>
               <form for="">
-                <div class="subscribe wow fadeInDown" data-wow-delay="0.3s">
+                <div className="subscribe wow fadeInDown" data-wow-delay="0.3s">
                   <input
                     type="Email"
-                    class="form-control"
+                    className="form-control"
                     name="email"
                     placeholder="Email Address"
                   />
-                  <button class="btn-submit" type="submit">
-                    <i class="lni-arrow-right"></i>
+                  <button className="btn-submit" type="submit">
+                    <i className="lni-arrow-right"></i>
                   </button>
                 </div>
               </form>
@@ -91,105 +91,114 @@ export default function Other() {
       {/* <!-- Subscribe Section End --> */}
 
       {/* <!-- Contact Section Start --> */}
-      <section id="contact" class="section-padding">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="section-header text-center">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">
+      <section id="contact" className="section-padding">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="section-header text-center">
+                <h2
+                  className="section-title wow fadeInDown"
+                  data-wow-delay="0.3s"
+                >
                   Contact
                 </h2>
               </div>
             </div>
           </div>
-          <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
-            <div class="col-md-6 col-lg-6 col-sm-12">
-              <div class="contact-block">
+          <div
+            className="row contact-form-area wow fadeInUp"
+            data-wow-delay="0.4s"
+          >
+            <div className="col-md-6 col-lg-6 col-sm-12">
+              <div className="contact-block">
                 <h2>Contact Form</h2>
                 <form id="contactForm">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="form-group">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           id="name"
                           name="name"
                           placeholder="Name"
                           required
                           data-error="Please enter your name"
                         />
-                        <div class="help-block with-errors"></div>
+                        <div className="help-block with-errors"></div>
                       </div>
                     </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
+                    <div className="col-md-6">
+                      <div className="form-group">
                         <input
                           type="text"
                           placeholder="Email"
                           id="email"
-                          class="form-control"
+                          className="form-control"
                           name="email"
                           required
                           data-error="Please enter your email"
                         />
-                        <div class="help-block with-errors"></div>
+                        <div className="help-block with-errors"></div>
                       </div>
                     </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
+                    <div className="col-md-12">
+                      <div className="form-group">
                         <input
                           type="text"
                           placeholder="Subject"
                           id="msg_subject"
-                          class="form-control"
+                          className="form-control"
                           required
                           data-error="Please enter your subject"
                         />
-                        <div class="help-block with-errors"></div>
+                        <div className="help-block with-errors"></div>
                       </div>
                     </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
+                    <div className="col-md-12">
+                      <div className="form-group">
                         <textarea
-                          class="form-control"
+                          className="form-control"
                           id="message"
                           placeholder="Your Message"
                           rows="5"
                           data-error="Write your message"
                           required
                         ></textarea>
-                        <div class="help-block with-errors"></div>
+                        <div className="help-block with-errors"></div>
                       </div>
-                      <div class="submit-button">
+                      <div className="submit-button">
                         <button
-                          class="btn btn-common"
+                          className="btn btn-common"
                           id="form-submit"
                           type="submit"
                         >
                           Send Message
                         </button>
-                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                        <div class="clearfix"></div>
+                        <div
+                          id="msgSubmit"
+                          className="h3 text-center hidden"
+                        ></div>
+                        <div className="clearfix"></div>
                       </div>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-sm-12">
-              <div class="contact-right-area wow fadeIn">
+            <div className="col-md-6 col-lg-6 col-sm-12">
+              <div className="contact-right-area wow fadeIn">
                 <h2>Get In Touch</h2>
-                <div class="contact-right">
-                  <div class="single-contact">
-                    <div class="contact-icon">
-                      <i class="lni-map-marker"></i>
+                <div className="contact-right">
+                  <div className="single-contact">
+                    <div className="contact-icon">
+                      <i className="lni-map-marker"></i>
                     </div>
                     <p>Skopje, Macedonia</p>
                   </div>
-                  <div class="single-contact">
-                    <div class="contact-icon">
-                      <i class="lni-envelope"></i>
+                  <div className="single-contact">
+                    <div className="contact-icon">
+                      <i className="lni-envelope"></i>
                     </div>
                     <p>
                       <a href="#">email@gmail.com</a>
@@ -198,9 +207,9 @@ export default function Other() {
                       <a href="#">tomsaulnier@gmail.com</a>
                     </p>
                   </div>
-                  <div class="single-contact">
-                    <div class="contact-icon">
-                      <i class="lni-phone-handset"></i>
+                  <div className="single-contact">
+                    <div className="contact-icon">
+                      <i className="lni-phone-handset"></i>
                     </div>
                     <p>
                       <a
@@ -223,8 +232,8 @@ export default function Other() {
       {/* <!-- Contact Section End --> */}
 
       {/* <!-- Map Section Start --> */}
-      <div class="map">
-        <div class="containre-fulid">
+      <div className="map">
+        <div className="containre-fulid">
           <div id="conatiner-map"></div>
         </div>
       </div>

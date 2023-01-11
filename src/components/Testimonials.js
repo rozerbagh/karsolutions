@@ -4,19 +4,19 @@ export default function Testimonials() {
   return (
     <>
       {/* <!-- Testimonial Section Start --> */}
-      <section id="testimonial" class="testimonial section-padding">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+      <section id="testimonial" className="testimonial section-padding">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-7 col-md-12 col-sm-12 col-xs-12">
               <div
                 id="testimonials"
-                class="owl-carousel wow fadeInUp"
+                className="owl-carousel wow fadeInUp"
                 data-wow-delay="1.2s"
               >
-                <div class="item">
-                  <div class="testimonial-item">
-                    <div class="content">
-                      <p class="description">
+                <div className="item">
+                  <div className="testimonial-item">
+                    <div className="content">
+                      <p className="description">
                         Holisticly empower leveraged ROI whereas effective
                         web-readiness. Completely enable emerging meta-services
                         with cross-platform web services. Quickly initiate
@@ -25,10 +25,10 @@ export default function Testimonials() {
                         effective web-readiness.
                       </p>
                     </div>
-                    <div class="img-thumb">
+                    <div className="img-thumb">
                       <img src="assets/img/testimonial/img1.jpg" alt="" />
                     </div>
-                    <div class="info">
+                    <div className="info">
                       <h2>
                         <a href="#">Grenchen Pearce</a>
                       </h2>
@@ -38,10 +38,10 @@ export default function Testimonials() {
                     </div>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="testimonial-item">
-                    <div class="content">
-                      <p class="description">
+                <div className="item">
+                  <div className="testimonial-item">
+                    <div className="content">
+                      <p className="description">
                         Holisticly empower leveraged ROI whereas effective
                         web-readiness. Completely enable emerging meta-services
                         with cross-platform web services. Quickly initiate
@@ -50,10 +50,10 @@ export default function Testimonials() {
                         effective web-readiness.
                       </p>
                     </div>
-                    <div class="img-thumb">
+                    <div className="img-thumb">
                       <img src="assets/img/testimonial/img2.jpg" alt="" />
                     </div>
-                    <div class="info">
+                    <div className="info">
                       <h2>
                         <a href="#">Domeni GEsson</a>
                       </h2>
@@ -63,10 +63,10 @@ export default function Testimonials() {
                     </div>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="testimonial-item">
-                    <div class="content">
-                      <p class="description">
+                <div className="item">
+                  <div className="testimonial-item">
+                    <div className="content">
+                      <p className="description">
                         Holisticly empower leveraged ROI whereas effective
                         web-readiness. Completely enable emerging meta-services
                         with cross-platform web services. Quickly initiate
@@ -75,10 +75,10 @@ export default function Testimonials() {
                         effective web-readiness.
                       </p>
                     </div>
-                    <div class="img-thumb">
+                    <div className="img-thumb">
                       <img src="assets/img/testimonial/img3.jpg" alt="" />
                     </div>
-                    <div class="info">
+                    <div className="info">
                       <h2>
                         <a href="#">Dommini Albert</a>
                       </h2>
@@ -88,10 +88,10 @@ export default function Testimonials() {
                     </div>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="testimonial-item">
-                    <div class="content">
-                      <p class="description">
+                <div className="item">
+                  <div className="testimonial-item">
+                    <div className="content">
+                      <p className="description">
                         Holisticly empower leveraged ROI whereas effective
                         web-readiness. Completely enable emerging meta-services
                         with cross-platform web services. Quickly initiate
@@ -100,10 +100,10 @@ export default function Testimonials() {
                         effective web-readiness.
                       </p>
                     </div>
-                    <div class="img-thumb">
+                    <div className="img-thumb">
                       <img src="assets/img/testimonial/img4.png" alt="" />
                     </div>
-                    <div class="info">
+                    <div className="info">
                       <h2>
                         <a href="#">Fernanda Anaya</a>
                       </h2>
@@ -113,10 +113,10 @@ export default function Testimonials() {
                     </div>
                   </div>
                 </div>
-                <div class="item">
-                  <div class="testimonial-item">
-                    <div class="content">
-                      <p class="description">
+                <div className="item">
+                  <div className="testimonial-item">
+                    <div className="content">
+                      <p className="description">
                         Holisticly empower leveraged ROI whereas effective
                         web-readiness. Completely enable emerging meta-services
                         with cross-platform web services. Quickly initiate
@@ -125,10 +125,10 @@ export default function Testimonials() {
                         effective web-readiness.
                       </p>
                     </div>
-                    <div class="img-thumb">
+                    <div className="img-thumb">
                       <img src="assets/img/testimonial/img5.png" alt="" />
                     </div>
-                    <div class="info">
+                    <div className="info">
                       <h2>
                         <a href="#">Jason A.</a>
                       </h2>

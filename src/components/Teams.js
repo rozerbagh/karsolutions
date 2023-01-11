@@ -4,34 +4,37 @@ export default function Teams() {
   return (
     <>
       {/* <!-- Team Section Start --> */}
-      <section id="team" class="section-padding text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="section-header text-center">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">
+      <section id="team" className="section-padding text-center">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="section-header text-center">
+                <h2
+                  className="section-title wow fadeInDown"
+                  data-wow-delay="0.3s"
+                >
                   Our Team
                 </h2>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-6 col-lg-4">
+          <div className="row">
+            <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
-              <div class="team-item text-center">
-                <div class="team-img">
+              <div className="team-item text-center">
+                <div className="team-img">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/team/team-01.jpg"
                     alt=""
                   />
-                  <div class="team-overlay">
-                    <div class="overlay-social-icon text-center">
-                      <ul class="social-icons">
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
                         <li>
                           <a href="#">
                             <i
-                              class="lni-facebook-filled"
+                              className="lni-facebook-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -39,7 +42,7 @@ export default function Teams() {
                         <li>
                           <a href="#">
                             <i
-                              class="lni-twitter-filled"
+                              className="lni-twitter-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -47,7 +50,7 @@ export default function Teams() {
                         <li>
                           <a href="#">
                             <i
-                              class="lni-instagram-filled"
+                              className="lni-instagram-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -56,7 +59,7 @@ export default function Teams() {
                     </div>
                   </div>
                 </div>
-                <div class="info-text">
+                <div className="info-text">
                   <h3>
                     <a href="#">Rafael Basilla</a>
                   </h3>
@@ -65,22 +68,22 @@ export default function Teams() {
               </div>
               {/* <!-- Team Item Ends --> */}
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4">
+            <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
-              <div class="team-item text-center">
-                <div class="team-img">
+              <div className="team-item text-center">
+                <div className="team-img">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/team/team-02.jpg"
                     alt=""
                   />
-                  <div class="team-overlay">
-                    <div class="overlay-social-icon text-center">
-                      <ul class="social-icons">
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
                         <li>
                           <a href="#">
                             <i
-                              class="lni-facebook-filled"
+                              className="lni-facebook-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -88,7 +91,7 @@ export default function Teams() {
                         <li>
                           <a href="#">
                             <i
-                              class="lni-twitter-filled"
+                              className="lni-twitter-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -96,7 +99,7 @@ export default function Teams() {
                         <li>
                           <a href="#">
                             <i
-                              class="lni-instagram-filled"
+                              className="lni-instagram-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -105,7 +108,7 @@ export default function Teams() {
                     </div>
                   </div>
                 </div>
-                <div class="info-text">
+                <div className="info-text">
                   <h3>
                     <a href="#">Renee Fleck</a>
                   </h3>
@@ -115,22 +118,22 @@ export default function Teams() {
               {/* <!-- Team Item Ends --> */}
             </div>
 
-            <div class="col-sm-6 col-md-6 col-lg-4">
+            <div className="col-sm-6 col-md-6 col-lg-4">
               {/* <!-- Team Item Starts --> */}
-              <div class="team-item text-center">
-                <div class="team-img">
+              <div className="team-item text-center">
+                <div className="team-img">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     src="assets/img/team/team-03.jpg"
                     alt=""
                   />
-                  <div class="team-overlay">
-                    <div class="overlay-social-icon text-center">
-                      <ul class="social-icons">
+                  <div className="team-overlay">
+                    <div className="overlay-social-icon text-center">
+                      <ul className="social-icons">
                         <li>
                           <a href="#">
                             <i
-                              class="lni-facebook-filled"
+                              className="lni-facebook-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -138,7 +141,7 @@ export default function Teams() {
                         <li>
                           <a href="#">
                             <i
-                              class="lni-twitter-filled"
+                              className="lni-twitter-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -146,7 +149,7 @@ export default function Teams() {
                         <li>
                           <a href="#">
                             <i
-                              class="lni-instagram-filled"
+                              className="lni-instagram-filled"
                               aria-hidden="true"
                             ></i>
                           </a>
@@ -155,7 +158,7 @@ export default function Teams() {
                     </div>
                   </div>
                 </div>
-                <div class="info-text">
+                <div className="info-text">
                   <h3>
                     <a href="#">Paul Kowalsy</a>
                   </h3>
