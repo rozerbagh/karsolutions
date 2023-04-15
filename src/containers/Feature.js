@@ -23,7 +23,7 @@ export default function Feature() {
                           <i className="lni-layers"></i>
                         </div>
                         <div className="features-content">
-                          <h4>Bootstrap 4</h4>
+                          <h4>Taxes</h4>
                           <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Veniam tempora quidem vel sint.
@@ -40,7 +40,7 @@ export default function Feature() {
                           <i className="lni-briefcase"></i>
                         </div>
                         <div className="features-content">
-                          <h4>100% Free</h4>
+                          <h4>GST</h4>
                           <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Veniam tempora quidem vel sint.
@@ -57,7 +57,7 @@ export default function Feature() {
                           <i className="lni-cog"></i>
                         </div>
                         <div className="features-content">
-                          <h4>Responsive</h4>
+                          <h4>ITR</h4>
                           <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Veniam tempora quidem vel sint.
@@ -74,7 +74,7 @@ export default function Feature() {
                           <i className="lni-leaf"></i>
                         </div>
                         <div className="features-content">
-                          <h4>Easy to Use</h4>
+                          <h4>Registration</h4>
                           <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Veniam tempora quidem vel sint.
@@ -91,7 +91,10 @@ export default function Feature() {
                 className="feature-thumb wow fadeInRight"
                 data-wow-delay="0.3s"
               >
-                <img src="assets/img/feature/img-1.jpg" alt="" />
+                <img
+                  src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=20"
+                  alt=""
+                />
               </div>
             </div>
           </div>

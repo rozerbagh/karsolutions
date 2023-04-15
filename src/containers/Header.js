@@ -73,7 +73,7 @@ function Header() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/blog/">
+                  <a className="nav-link" href="/blog">
                     {" "}
                     Blogs{" "}
                   </a>
@@ -146,7 +146,7 @@ function Header() {
                   <h2 className="head-title wow fadeInUp">
                     One stop solution for
                     <br />
-                    For Business, SaaS and Apps
+                    For Business
                   </h2>
                   <div
                     className="header-button wow fadeInUp"
@@ -163,7 +163,7 @@ function Header() {
                 >
                   <img
                     className="img-fluid"
-                    src="assets/img/hero-1.png"
+                    src="https://images.unsplash.com/photo-1501290836517-b22a21c522a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=40"
                     alt=""
                   />
                 </div>

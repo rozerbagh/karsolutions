@@ -9,11 +9,11 @@ export default function Footer() {
           <div className="container">
             <div className="row">
               <div
-                className="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp"
+                className="col-lg-4 col-md-6 col-sm-12 col-xs-12 wow fadeInUp"
                 data-wow-delay="0.2s"
               >
                 <div className="footer-logo mb-3">
-                  <img src="assets/img/logo.png" alt="" />
+                  <img src="assets/img/logo.svg" alt="" />
                 </div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -21,7 +21,7 @@ export default function Footer() {
                 </p>
               </div>
               <div
-                className="col-lg-3 col-md-6 col-sm-12 col-xs-12 wow fadeInUp"
+                className="col-lg-2 col-md-6 col-sm-12 col-xs-12 wow fadeInUp"
                 data-wow-delay="0.4s"
               >
                 <h3 className="footer-titel">Company</h3>
@@ -84,7 +84,10 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <p>Copyright © 2018 UIdeck All Right Reserved</p>
+              <p>
+                Copyright © {new Date().getFullYear()} Karsolutions All Right
+                Reserved
+              </p>
             </div>
           </div>
         </div>

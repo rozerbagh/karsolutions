@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
-import Services from "../components/Services";
-import Feature from "../components/Feature";
-import Clients from "../components/Clients";
-import Teams from "../components/Teams";
-import Testimonials from "../components/Testimonials";
-import Other from "../components/Other";
-import Footer from "../components/Footer";
+import Header from "../containers/Header";
+import Services from "../containers/Services";
+import Feature from "../containers/Feature";
+import Clients from "../containers/Clients";
+import Teams from "../containers/Teams";
+import Testimonials from "../containers/Testimonials";
+import Other from "../containers/Other";
+import Footer from "../containers/Footer";
 export default function Home() {
   return (
     <>

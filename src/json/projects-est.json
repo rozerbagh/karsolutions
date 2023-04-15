@@ -1,0 +1,38 @@
+[
+  {
+    "title": "registraion",
+    "name": "Company Registration",
+    "price": 7899,
+    "documents": ["docs1", "docs2"]
+  },
+  {
+    "title": "registraion",
+    "name": "GST Registration",
+    "price": 7899,
+    "documents": ["docs1", "docs2"]
+  },
+  {
+    "title": "registraion",
+    "name": "Trademark Registration",
+    "price": 7899,
+    "documents": ["docs1", "docs2"]
+  },
+  {
+    "title": "complience",
+    "name": "ROC Complience",
+    "price": 7899,
+    "documents": ["docs1", "docs2"]
+  },
+  {
+    "title": "complience",
+    "name": "GST Complience",
+    "price": 7899,
+    "documents": ["docs1", "docs2"]
+  },
+  {
+    "title": "complience",
+    "name": "Company Complience",
+    "price": 7899,
+    "documents": ["docs1", "docs2"]
+  }
+]
