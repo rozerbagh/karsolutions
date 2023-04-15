@@ -1,6 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 
 export default function Other() {
+  const form = useRef();
+  const from_name = useRef();
+  const user_email = useRef();
+  const message = useRef();
+  const subject = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    window.emailjs
+      .sendForm(
+        "caabhijeetchouby_123",
+        "ca_123",
+        form.current,
+        "oeKEawwInABx20OFx"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Thanks for contacting us! We will get bak to You");
+        },
+        (error) => {
+          alert("Unable to send the message ");
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
       {/* <!-- Owl Slider Section Start --> */}
@@ -71,7 +96,7 @@ export default function Other() {
                 <br />
                 Compellingly unleash fully tested outsourcing
               </p>
-              <form for="">
+              <form htmlFor="">
                 <div className="subscribe wow fadeInDown" data-wow-delay="0.3s">
                   <input
                     type="Email"
@@ -112,7 +137,8 @@ export default function Other() {
             <div className="col-md-6 col-lg-6 col-sm-12">
               <div className="contact-block">
                 <h2>Contact Form</h2>
-                <form id="contactForm">
+                <form ref={form} id="contactForm" onSubmit={sendEmail}>
+                  <input hidden value={"CA Abhijeet"} name="to_name" />
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -120,7 +146,8 @@ export default function Other() {
                           type="text"
                           className="form-control"
                           id="name"
-                          name="name"
+                          name="from_name"
+                          ref={from_name}
                           placeholder="Name"
                           required
                           data-error="Please enter your name"
@@ -133,9 +160,10 @@ export default function Other() {
                         <input
                           type="text"
                           placeholder="Email"
+                          ref={user_email}
                           id="email"
                           className="form-control"
-                          name="email"
+                          name="user_email"
                           required
                           data-error="Please enter your email"
                         />
@@ -148,6 +176,7 @@ export default function Other() {
                           type="text"
                           placeholder="Subject"
                           id="msg_subject"
+                          ref={subject}
                           className="form-control"
                           required
                           data-error="Please enter your subject"
@@ -160,6 +189,8 @@ export default function Other() {
                         <textarea
                           className="form-control"
                           id="message"
+                          ref={message}
+                          name="message"
                           placeholder="Your Message"
                           rows="5"
                           data-error="Write your message"
@@ -172,6 +203,7 @@ export default function Other() {
                           className="btn btn-common"
                           id="form-submit"
                           type="submit"
+                          onSubmit={sendEmail}
                         >
                           Send Message
                         </button>
@@ -194,7 +226,7 @@ export default function Other() {
                     <div className="contact-icon">
                       <i className="lni-map-marker"></i>
                     </div>
-                    <p>Skopje, Macedonia</p>
+                    <p>APC Circle, Jigani, Bangalore Karnataka - 560105</p>
                   </div>
                   <div className="single-contact">
                     <div className="contact-icon">
